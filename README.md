@@ -49,18 +49,20 @@ Multiple machine learning models are trained and evaluated, and predictions are 
 ---
 
 ## 📁 File Structure
+
+```text
 IPL-FINALPROJECT/
-|
-├── app.py # Streamlit dashboard
-├── train_all_models.py # Model training script
-├── requirements.txt # Python dependencies
+├── app.py                   # Streamlit dashboard
+├── train_all_models.py      # Model training script
+├── requirements.txt         # Python dependencies
 │
-├── models/ # Saved ML models
-├── ipl_stats.csv # Raw IPL historical data
-├── processed_ipl_full.csv # Processed dataset
+├── models/                  # Saved ML models
+├── ipl_stats.csv            # Raw IPL historical data
+├── processed_ipl_full.csv   # Processed dataset
 │
-├── venv/ # Virtual environment (ignored in Git)
-└── README.md # Project documentation
+├── venv/                    # Virtual environment (ignored in Git)
+└── README.md                # Project documentation
+
 
 
 ---
@@ -84,4 +86,18 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+
+## ▶️ How to Run
+
+```bash
+# Step 1: (Optional) Train all machine learning models
+python train_all_models.py
+
+# Step 2: Run the Streamlit application
+streamlit run app.py
+
+## 📄 License
+
+This project is licensed under the MIT License.
 
