@@ -1,0 +1,19 @@
+Accuracy: 0.881
+
+Classification Report:
+              precision    recall  f1-score   support
+
+ All-rounder      1.000     1.000     1.000        15
+     Batsman      0.667     1.000     0.800        10
+      Bowler      1.000     1.000     1.000        12
+Wicketkeeper      0.000     0.000     0.000         5
+
+    accuracy                          0.881        42
+   macro avg      0.667     0.750     0.700        42
+weighted avg      0.802     0.881     0.833        42
+
+Confusion Matrix:
+[[15  0  0  0]
+ [ 0 10  0  0]
+ [ 0  0 12  0]
+ [ 0  5  0  0]]
